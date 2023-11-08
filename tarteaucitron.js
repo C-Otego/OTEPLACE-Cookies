@@ -171,7 +171,7 @@ var tarteaucitron = {
             var tacAlertBig = document.getElementById('tarteaucitronAlertBig');
 
             if (tacAlertBig && !tarteaucitron.highPrivacy) {
-                if (tacAlertBig.style.display === 'flex') {
+                if (tacAlertBig.style.display === 'block') {
                     heightPosition = tacAlertBig.offsetHeight + 'px';
 
                     if (scrollPos > (screen.height * 2)) {
