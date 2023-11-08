@@ -425,7 +425,7 @@ var tarteaucitron = {
                     html += '   <span id="tarteaucitronDisclaimerAlert">';
                     html += '       ' + tarteaucitron.lang.alertBigPrivacy;
                     html += '   </span>';
-                    //html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
+                    html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
                     html += '   <button type="button" id="tarteaucitronPersonalize" aria-label="' + tarteaucitron.lang.personalize + ' ' + tarteaucitron.lang.modalWindow + '" title="' + tarteaucitron.lang.personalize + ' ' + tarteaucitron.lang.modalWindow + '">';
                     html += '       ' + tarteaucitron.lang.personalize;
                     html += '   </button>';
@@ -436,7 +436,7 @@ var tarteaucitron = {
                         html += '   </button>';
                     }
 
-                    //html += '   </span>';
+                    html += '   </span>';
                     //html += '</div>';
                     html += '</div>';
                 } else {
