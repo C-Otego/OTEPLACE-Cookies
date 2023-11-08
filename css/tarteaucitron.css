@@ -1,3 +1,9 @@
+:root {
+--valid: #FF8C00;
+--deny: #50768E;
+--banner: #2F3238;
+}
+
 div#tarteaucitronMainLineOffset,.tarteaucitronBorder {border:0!important;}
 
 #tarteaucitron [aria-pressed="true"] {
@@ -502,7 +508,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied {
-    border-color: #9C1A1A;
+    border-color: var(--deny);
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine {
@@ -572,7 +578,7 @@ div#tarteaucitronServices {
 }
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied.tarteaucitronIsSelected,
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied2.tarteaucitronIsSelected {
-    background-color: #9C1A1A;
+    background-color: var(--deny);
     opacity: 1;
 }
 
@@ -581,7 +587,7 @@ div#tarteaucitronServices {
     background-color: #1B870B;
 }
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied .tarteaucitronDeny {
-    background-color: #9C1A1A;
+    background-color: var(--deny);
 }
 
 #tarteaucitron #tarteaucitronServices #tarteaucitronServices_mandatory .tarteaucitronLine button.tarteaucitronAllow{
@@ -622,16 +628,19 @@ span#tarteaucitronDisclaimerAlert {
 }
 
 #tarteaucitronRoot #tarteaucitronAlertBig {
-    background: #333;
+    background: var(--banner);
     color: #fff;
     display: none;
     font-size: 15px !important;
     left: 0;
+    bottom: 0;
+    top: auto;
+    height: fit-content;
     position: fixed;
-    box-sizing: content-box;
+    box-sizing: border-box;
     z-index: 2147483645;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 20px;
     margin: auto;
     width: 100%;
 }
@@ -661,8 +670,8 @@ span#tarteaucitronDisclaimerAlert {
 #tarteaucitron #tarteaucitronPrivacyUrlDialog,
 #tarteaucitronRoot .tarteaucitronDeny,
 #tarteaucitronRoot .tarteaucitronAllow {
-    background: #008300;
-    color: #fff;
+    background: var(--valid);
+    color: black;
     cursor: pointer;
     display: inline-block;
     font-size: 16px!important;
@@ -673,7 +682,7 @@ span#tarteaucitronDisclaimerAlert {
 }
 
 #tarteaucitronRoot .tarteaucitronDeny {
-    background: #9C1A1A;
+    background: var(--deny);
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
@@ -830,7 +839,7 @@ span#tarteaucitronDisclaimerAlert {
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotRed {
-    background-color: #9C1A1A;
+    background-color: var(--deny);
 }
 
 #tarteaucitronAlertSmall #tarteaucitronCookiesNumber {
