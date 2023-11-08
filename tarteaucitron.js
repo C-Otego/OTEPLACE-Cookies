@@ -1375,7 +1375,7 @@ var tarteaucitron = {
             tarteaucitron.userInterface.css(c + 'Percentage', 'display', 'block');
             tarteaucitron.userInterface.css(c + 'AlertSmall', 'display', 'none');
             tarteaucitron.userInterface.css(c + 'Icon', 'display', 'none');
-            tarteaucitron.userInterface.css(c + 'AlertBig',   'display', 'block');
+            tarteaucitron.userInterface.css(c + 'AlertBig',   'display', 'flex');
             tarteaucitron.userInterface.addClass(c + 'Root',   'tarteaucitronBeforeVisible');
 
             //ie compatibility
