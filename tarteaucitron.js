@@ -436,7 +436,7 @@ var tarteaucitron = {
                         html += '   </button>';
                     }
 
-                    html += '   </span>';
+                    //html += '   </span>';
                     //html += '</div>';
                     html += '</div>';
                 } else {
@@ -478,7 +478,7 @@ var tarteaucitron = {
                         html += '   </button>';
                     }
 
-                    //html += '   </span>';
+                    html += '   </span>';
                     //html += '</div>';
                     html += '</div>';
                     html += '<div id="tarteaucitronPercentage"></div>';
