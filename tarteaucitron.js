@@ -436,7 +436,7 @@ var tarteaucitron = {
                         html += '   </button>';
                     }
 
-                    //html += '   </span>';
+                    html += '   </span>';
                     //html += '</div>';
                     html += '</div>';
                 } else {
@@ -451,7 +451,7 @@ var tarteaucitron = {
                     }
 
                     html += '   </span>';
-                    //html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
+                    html += '   <span class="tarteaucitronAlertBigBtnWrapper">';
                     html += '   <button type="button" class="tarteaucitronCTAButton tarteaucitronAllow" id="tarteaucitronPersonalize2">';
                     html += '       <span class="tarteaucitronCheck" aria-hidden="true"></span> ' + tarteaucitron.lang.acceptAll;
                     html += '   </button>';
