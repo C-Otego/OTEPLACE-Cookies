@@ -8,7 +8,7 @@ tarteaucitron.lang = {
     "alertBigClick": "继续浏览，",
     "alertBig": "即表示您同意第三方服务安装cookie",
 
-    "alertBigPrivacy": "这个网站使用cookie， 并让您可以控制想要激活的内容。",
+    "alertBigPrivacy": "OTEGO使用Cookie为您在网站上提供最佳体验。这包括对网站正常运行所必需的Cookie，以及仅用于匿名统计目的、方便设置或显示个性化内容的Cookie。您可以自行决定要授权的Cookie类别。请注意，根据您的设置，可能无法使用所有网站功能。\r\n您可以通过单击“首选项”按类别管理Cookie，但您也可以接受或拒绝所有Cookie。您可以随时通过Cookie管理模块更改主意。\r\n有关我们的做法的更多信息，请参阅我们的Cookie政策和隐私政策。",
     "alertSmall": "服务管理",
     "acceptAll": "好的，全部接受",
     "personalize": "个性化",
