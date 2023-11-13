@@ -9,7 +9,7 @@ tarteaucitron.lang = {
     "alertBigClick": "If you continue to browse this website,",
     "alertBig": "you are allowing all third-party services",
     
-    "alertBigPrivacy": "This site uses cookies and gives you control over what you want to activate",
+    "alertBigPrivacy": "OTEGO uses Cookies to provide you with the best possible experience on the website. This includes Cookies that are necessary for the site to function, as well as those used only for anonymous statistical purposes, convenience settings, or to display personalized content. You can decide for yourself which categories you want to allow. Please note that depending on your settings, not all site features may be available. \r\nYou can manage Cookies by category by clicking on 'Preferences,' but you can also accept or reject all Cookies. You can change your mind at any time using the Cookie management module. \r\nFor more information about our practices, you can refer to our Cookie Policy and Privacy Policy.",
     "alertSmall": "Manage services",
     "personalize": "Personalize",
     "acceptAll": "OK, accept all",
