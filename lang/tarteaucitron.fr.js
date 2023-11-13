@@ -10,10 +10,7 @@ tarteaucitron.lang = {
     "alertBigClick": "En poursuivant votre navigation,",
     "alertBig": "vous acceptez l'utilisation de services tiers pouvant installer des cookies",
     
-    "alertBigPrivacy": "OTEGO utilise des Cookies pour vous offrir la meilleure expérience possible sur le site web. Il s'agit notamment des Cookies qui sont nécessaires au fonctionnement du site, ainsi que de ceux qui ne sont utilisés qu'à des fins statistiques anonymes, pour des paramètres de commodité ou pour afficher un contenu personnalisé. Vous pouvez décider vous-même des catégories que vous souhaitez autoriser. Veuillez noter qu'en fonction de vos paramètres, toutes les fonctionnalités du site peuvent ne pas être disponibles. 
-    Vous pouvez gérer les Cookies par catégorie en cliquant sur « Préférences », mais vous pouvez également accepter ou refuser l’ensemble des Cookies. 
-    Vous pouvez changer d’avis à tout moment depuis le module de gestion des Cookies. 
-    Pour plus d’informations sur nos pratiques, vous pouvez consulter notre Charte Cookies et notre Politique de confidentialité.",
+    "alertBigPrivacy": "OTEGO utilise des Cookies pour vous offrir la meilleure expérience possible sur le site web. Il s'agit notamment des Cookies qui sont nécessaires au fonctionnement du site, ainsi que de ceux qui ne sont utilisés qu'à des fins statistiques anonymes, pour des paramètres de commodité ou pour afficher un contenu personnalisé. Vous pouvez décider vous-même des catégories que vous souhaitez autoriser. Veuillez noter qu'en fonction de vos paramètres, toutes les fonctionnalités du site peuvent ne pas être disponibles.  Vous pouvez gérer les Cookies par catégorie en cliquant sur « Préférences », mais vous pouvez également accepter ou refuser l’ensemble des Cookies. Vous pouvez changer d’avis à tout moment depuis le module de gestion des Cookies. Pour plus d’informations sur nos pratiques, vous pouvez consulter notre Charte Cookies et notre Politique de confidentialité.",
     "alertSmall": "Gestion des services",
     "acceptAll": "Tout accepter",
     "personalize": "Personnaliser",
