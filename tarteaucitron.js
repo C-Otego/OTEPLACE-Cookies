@@ -1253,6 +1253,7 @@ var tarteaucitron = {
             "use strict";
 
             tarteaucitron.userInterface.css('tarteaucitron', 'display', 'flex');
+		tarteaucitron.userInterface.css('tarteaucitron', 'opacity', '0');
             tarteaucitron.userInterface.css('tarteaucitronBack', 'display', 'block');
             tarteaucitron.userInterface.css('tarteaucitronCookiesListContainer', 'display', 'none');
 
