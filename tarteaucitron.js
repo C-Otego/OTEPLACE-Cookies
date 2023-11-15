@@ -485,7 +485,7 @@ var tarteaucitron = {
                 }
 
                 if (tarteaucitron.parameters.showIcon === true) {
-                    html += '<div id="tarteaucitronIcon" class="tarteaucitronIcon jump btn btn-success cookie-manager' + tarteaucitron.parameters.iconPosition + '" style="display: block">';
+                    html += '<div id="tarteaucitronIcon" class="tarteaucitronIcon ' + tarteaucitron.parameters.iconPosition + '" style="display: block">';
                     html += '   <button type="button" id="tarteaucitronManager" aria-label="' + tarteaucitron.lang.icon + ' ' + tarteaucitron.lang.modalWindow + '" title="' + tarteaucitron.lang.icon + ' ' + tarteaucitron.lang.modalWindow + '">';
                     html += '       <span class="fa fa-lock"></span>Cookie';
                     html += '   </button>';
